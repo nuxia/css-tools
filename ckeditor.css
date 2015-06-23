@@ -1,0 +1,47 @@
+/* edit */
+body.nx_content {
+    margin: 10px;
+}
+
+/* global */
+.nx_content ol,
+.nx_content ul {
+    list-style-position: outside;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+.nx_content ol {
+    list-style-type: decimal;
+}
+
+.nx_content ul {
+    list-style-type: disc;
+}
+
+.nx_content li {
+    margin-top: 5px;
+}
+
+.nx_content li:first-child {
+    margin-top: 0;
+}
+
+.nx_content p {
+    margin: 10px 0;
+}
+
+.nx_content a {
+    text-decoration: underline;
+}
+
+.nx_content caption,
+.nx_content th,
+.nx_content td {
+    padding: 5px;
+}
+
+.nx_content caption,
+.nx_content th {
+    font-weight: 700;
+}

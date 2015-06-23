@@ -1,0 +1,16 @@
+{
+  "name": "css-tools",
+  "version": "0.1.0",
+  "authors": [
+    "Nuxia <dev@nuxia.fr>"
+  ],
+  "description": "css snippets",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

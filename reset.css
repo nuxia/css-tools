@@ -1,0 +1,232 @@
+/* todo 
+http://www.cssreset.com/scripts/normalize-css/
+http://twitter.github.io/bootstrap/base-css.html
+*/
+
+/** mix from cssreset (source: http://www.cssreset.com) **/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* non html5 adapter */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+input, textarea, select {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    /* *font-size: 100%; /* to enable resizing for IE */
+}
+
+/* because legend doesn't inherit in IE */
+legend {
+    color: #000;
+}
+
+/** parts from knacss (source: http://www.knacss.com) **/
+/* max values */
+img, table, td, blockquote, code, pre, textarea, input, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* you shall not pass */
+textarea, table, td, th, code, pre, samp, p {
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+
+/* pictures */
+img {
+    vertical-align: middle;
+    width: auto;
+}
+
+/* alignments (blocks and inline) */
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    margin: auto;
+}
+
+.txtleft {
+    text-align: left;
+}
+
+.txtright {
+    text-align: right;
+}
+
+.txtcenter {
+    text-align: center;
+}
+
+/* quick print reset */
+@media print {
+    p, blockquote {
+        orphans: 2;
+        widows: 2;
+    }
+
+    blockquote, ul, ol {
+        page-break-inside: avoid;
+    }
+
+    h1, h2, h3, caption {
+        page-break-after: avoid;
+    }
+}
+
+/* quick smartphone reset */
+@media (max-width: 640px) {
+    label, fieldset {
+        display: block !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        border: 0;
+        float: none !important;
+        width: auto !important;
+    }
+}
+
+/* orientation iOS font-size fix */
+@media (orientation: landscape) and (max-device-width: 768px) {
+    html, body {
+        -webkit-text-size-adjust: 100%;
+    }
+}
+
+/** nuxia **/
+/* useful labels
+- class: separator / dotted / odd / even / pagination / help / error / actions / content / social / button / teaser 
+- id: main / menu / manager / breadcrumb
+*/
+strong {
+    font-weight: 700;
+}
+
+em {
+    font-style: italic;
+}
+
+textarea {
+    resize: vertical;
+}
+
+ul.inline > li {
+    display: inline-block;
+}
+
+.centered {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.sprite {
+    background-image: url("/images/sprite.png");
+    background-repeat: no-repeat;
+}
+
+.sprite-x {
+    background-image: url("/images/sprite-x.png");
+    background-repeat: repeat-x;
+}
+
+.sprite-y {
+    background-image: url("/images/sprite-y.png");
+    background-repeat: repeat-y;
+}
+
+.hidden-visibility {
+    visibility: hidden;
+}
+
+.hidden-display {
+    display: none;
+}
+/* A DECOMMENTER QUAND NX-FRONTEND AURA UN TAG
+/*label.required:after {
+    content: "*";
+}*/
