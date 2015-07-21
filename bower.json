@@ -4,13 +4,17 @@
   "authors": [
     "Nuxia <dev@nuxia.fr>"
   ],
+  "main": [],
   "description": "css snippets",
   "license": "MIT",
   "ignore": [
     "**/.*",
+    "src",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "gulpfile.js",
+    "package.json"
   ]
 }
