@@ -110,7 +110,6 @@ textarea, table, td, th, code, pre, samp, p {
 /* pictures */
 img {
     vertical-align: middle;
-    width: auto;
 }
 
 /* alignments (blocks and inline) */
